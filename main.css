@@ -1,6 +1,5 @@
 .navbar-custom .navbar-nav .nav-link {
     color: rgb(255, 255, 255);
-    background-color: #2c175a;
 }
 
 footer {
@@ -31,4 +30,7 @@ Header {
     justify-content: center;
     align-items: center;
     color: rgb(255, 255, 255);
-  }
+}
+.dark-blue-text {
+    color: burlywood;
+}
