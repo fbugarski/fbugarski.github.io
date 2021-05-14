@@ -1,16 +1,18 @@
 /* .navbar-custom .navbar-nav .nav-link {
     color: rgb(255, 255, 255);
-}
+} */
 
-footer {
+/* footer {
     position:relative;
+    left: 0;
+    bottom: 0;;
     text-align: left;
     width: 100%;
     background-color: #ffffff;
-    color: #ffffff;
+    color: #000000;
     padding: 20px;
-}
-
+} */
+/* 
 body, html {
     height: 100%;
     margin: 0;
