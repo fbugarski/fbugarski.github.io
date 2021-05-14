@@ -4,15 +4,14 @@
     <title>Ultraviolet</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="main.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>
     <header>
-            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
                 <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="Logo" style="width: 300px;"></a>
                 <button class="navbar-toggler" 
                         type="button" data-toggle="collapse" 
@@ -32,58 +31,79 @@
                 </ul>
               </div>
             </nav>
-            <div id="section1" class="container-fluid" style="padding-top:70px;padding-bottom:70px; background-color: rgb(223, 100, 216);text-align: left;">
-                <h1 >Confidential Computing, Cryptography<br> and Blockchain Solutions</h1>
-                    <p>Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap.<br> Check out the examples below for how you can remix and restyle it to your liking.</p>
-            </div>
+
     </header>
     <main role="main">
-                    <div class="container">
-                        <div id="section1" class="container-fluid bg-success" style="padding-top:70px;padding-bottom:70px">
+
+        <div class="container-fluid">
+    
+
+                        <div id="section1" class="row" style="padding-top:70px;padding-bottom:70px;
+                            background-color: blueviolet; padding-left: 15%; padding-right: 15%;">
                             <h1 >Confidential Computing, Cryptography<br> and Blockchain Solutions</h1>
-                                <p>Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap.<br> Check out the examples below for how you can remix and restyle it to your liking.</p>
+                                <p>Using a series of utilities, you can create this jumbotron,
+                                    just like the one in previous versions of Bootstrap.<br>
+                                    Check out the examples below for how you can remix and restyle it to your liking.</p>
                         </div>
-                    </div>
-        <div class="container marketing">
+
             <hr class="featurette-divider">
-            <div class="row featurette">
+
+            <div class="row featurette" style="padding-left: 15%; padding-right: 15%;">
                 <div class="col-md-7">
                     <h2 class="featurette-heading">dApp & Smart Contracts</h2>
-                        <p class="lead">Development and deployment of decentralized applications contained in the consensus model among the stakeholders. Design and creation of secure, functional self-executing computer protocol i.e smart contract and its rules for fast, credible, traceable, and irreversible transactions weather intended for your utility token, token sale or for your unique decentralized system.</p>
+                        <p class="lead">Development and deployment of decentralized applications
+                            contained in the consensus model among the stakeholders. Design and creation of secure,
+                            functional self-executing computer protocol i.e smart contract and its rules for fast, credible, traceable,
+                            and irreversible transactions weather intended for your utility token, token sale
+                            or for your unique decentralized system.</p>
                 </div>
                 <div class="col-md-5">
-                    <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 500px;" src="images/smart-contract-vox.png" data-holder-rendered="true">
+                    <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500"
+                        style="width: 500px; height: 500px;" src="images/smart-contract-vox.png" data-holder-rendered="true">
                 </div>
             </div>
             <hr class="featurette-divider">
-            <div class="row featurette">
-                <div class="col-md-7 order-md-2">
-                    <h2 class="featurette-heading">Wallet & Token</span></h2>
-                        <p class="lead">Development of multi-signature wallet with a high level of security with balance, transactions, credentials, and personal details and other features. Wallet consists of a software application and information storage. Creation and launching of a wide range of decentralized tokens, intrinsic native tokens, application tokens or asset-backed tokens.</p>
+
+
+
+                <div class="row featurette" style="background-color: rgb(14, 97, 6); padding-left: 15%; padding-right: 15%;">
+                    <div class="col-md-7 order-md-2">
+                        <h2 class="featurette-heading">Wallet & Token</span></h2>
+                            <p class="lead">Development of multi-signature wallet with a high level of security
+                                with balance, transactions, credentials, and personal details and other features.
+                                Wallet consists of a software application and information storage.
+                                Creation and launching of a wide range of decentralized tokens, intrinsic native tokens,
+                                application tokens or asset-backed tokens.</p>
+                    </div>
+                    <div class="col-md-5 order-md-1">
+                        <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500"
+                            style="width: 500px; height: 500px;" src="images/lock-vox.png">
+                    </div>
                 </div>
-                <div class="col-md-5 order-md-1">
-                    <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" src="images/lock-vox.png">
-                </div>
-            </div>
+
+
             <hr class="featurette-divider">
-            <div class="row featurette">
-                <div class="col-md-7">
+
+            <div class="row featurette" style="padding-left: 15%; padding-right: 15%;">
+                <div class="col-md-7 order-md-1">
                     <h2 class="featurette-heading">Cryptography Algorithm Development</h2>
-                        <p class="lead">Using groundbreaking cryptography theory for development of advanced encryption algorithms that aims to solve ever-present problem of privacy of the data on the cloud.</p>
+                        <p class="lead">Using groundbreaking cryptography theory for development of advanced
+                            encryption algorithms that aims to solve ever-present problem of privacy of
+                        the data on the cloud.</p>
                 </div>
-                <div class="col-md-5">
-                    <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" src="images/smart-wallet-vox.png">
+                <div class="col-md-5 order-md-2">
+                    <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500"
+                    style="width: 500px; height: 500px;" src="images/smart-wallet-vox.png">
                 </div>
             </div>
+        
             <hr class="featurette-divider">
-        </div>
-        <footer class="contrainer bg-light" >
-            <!-- <div class="col-md-12"> -->
+        
+        <footer class="contrainer bg-light" style="padding-left: 15%; padding-right: 15%;">
                 <div class="row featurette">
                     <div class="col">
                         <h4 class="featurette-heading">Contact</h4>
                             <p class="lead">Belgrade, Serbia</p>
-                            <p class="lead">+381 64 143 0781</p>
                             <p class="lead">info@ultraviolet.rs</p>  
                     </div>
                     <div class="col">
@@ -103,9 +123,11 @@
                             <p class="lead"><a href="#" style="color: rgb(0, 0, 0);">Careers</a></p>
                             <p class="lead"><a href="#" style="color: rgb(0, 0, 0);">Contact</a></p>
                     </div>
-                </div>
-            </div>  
+                </div>  
         </footer>
+
+    </div>
+
     </main>
 </body>
 </html>
