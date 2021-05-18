@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="main.css">
         <script src="bootstrap/js/bootstrap.min.js"></script>
     </head>
-    <body>
+    <body style="display: flex; flex-direction: column; min-height: 100%;">
         <header>
             <!-- NAVBAR -->
             <nav class="navbar navbar-expand-md navbar-dark bg-dark">
@@ -32,28 +32,20 @@
                   </div>
                 </nav>
     
-        </header>
-            <h3></h3>
-                <p>
-                </p>
-                
-            <h3></h3>
-                <p>
-                </p>
+            </header>
     </div>
     <main role="main">
 
         <div class="container-fluid">
     
 
-                        <div id="section1" class="row" style="padding-top:70px;padding-bottom:70px; padding-left: 15%; padding-right: 15%;">
+                        <div id="section1" class="row" style="padding-top:70px;padding-bottom:70px; padding-left: 15%; padding-right: 15%;background-color: rgb(175, 1, 255);">
                             <h1 >CONSULTING SERVICES</h1>
                         </div>
-
             <hr class="featurette-divider">
 
             <div class="row featurette" style="padding-left: 15%; padding-right: 15%;">
-                <div class="col-md-7">
+                <div class="col-md-7 order-md-1">
                     <h2 class="featurette-heading">Blockchain Feasibility</h2>
                         <p class="lead">Initial Project Evaluation Blockchain is still a young technology with 
                             many implementations which did not provide expected value due to lack of strategic 
@@ -62,6 +54,10 @@
                              in blockchain solution. In this process detail understanding of the projects is acquired 
                              as the ground for the selection of blockchain technologies, architecture and frameworks 
                              that are most adequate to create estimated value and your business requirements.</p>
+                </div>
+                <div class="col-md-5 order-md-2">
+                    <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500"
+                    style="width: 250px; height: 250px;" src="images/smart-wallet-vox.png">
                 </div>
             </div>
             <hr class="featurette-divider">
@@ -79,9 +75,12 @@
                                 designing private and public networks, as well as transactions logic including smart
                                 contracts that's used to calculate fee for participants.</p>
                     </div>
-               </div>
-
-
+               
+               <div class="col-md-5 order-md-1">
+                <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500"
+                style="width: 250px; height: 250px;" src="images/smart-wallet-vox.png">
+            </div>
+        </div>
             <hr class="featurette-divider">
 
             <div class="row featurette" style="padding-left: 15%; padding-right: 15%;">
@@ -95,13 +94,17 @@
                             comes at the cost of performance and designing solutions requires a deep 
                             analysis of the particular use-case to evaluate security risks.</p>
                 </div>
+                <div class="col-md-5 order-md-2">
+                    <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500"
+                    style="width: 250px; height: 250px;" src="images/smart-wallet-vox.png">
+                </div>
             </div>
         
             <hr class="featurette-divider">
 
 
             <div class="row featurette" style="padding-left: 15%; padding-right: 15%;">
-                <div class="col-md-7 order-md-1">
+                <div class="col-md-7 order-md-2">
                     <h2 class="featurette-heading">End-To-End Data Protection</h2>
                         <p class="lead">End-To-End privacy, integrity and authenticity of your data
                                         When talking about end-to-end data protection, it's usually
@@ -114,11 +117,16 @@
                                             manipulate data securely and execute computation on 
                                             data without need to ever encrypt it.</p>
                 </div>
+                <div class="col-md-5 order-md-1">
+                    <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500"
+                    style="width: 250px; height: 250px;" src="images/smart-wallet-vox.png">
+                </div>
             </div>
         
             <hr class="featurette-divider">
         
-            <footer class="contrainer" style="padding-left: 15%; padding-right: 15%;">
+
+            <footer class="contrainer" style="padding-left: 15%; padding-right: 15%; margin-top: auto;">
                 <div class="row featurette">
                     <div class="col">
                         <h4 class="featurette-heading">Contact</h4>
@@ -144,9 +152,9 @@
                     </div>
                 </div>  
         </footer>
-
     </div>
 
     </main>
+
 </body>
 </html>
