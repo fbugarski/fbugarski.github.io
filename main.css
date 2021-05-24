@@ -5,5 +5,5 @@ body, html {
 
 	.navbar .nav-item:hover .nav-link{ color: #fff;  }
 	.navbar a {font-family: Arial, Helvetica, sans-serif;}
-    .footer .nav-item:hover .nav-link {color: #fff;}
-    .footer .a:link{ color: white;}
+    .footer .nav-item:hover .nav-link {color: rgb(20, 84, 148);}
+    .footer .nav-link{color:white;}
