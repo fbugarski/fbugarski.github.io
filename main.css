@@ -14,26 +14,26 @@ body, html {
         padding-bottom:5%;
         padding-left: 15%;
         padding-right: 15%;
-        background-image: url('images/joshua-sortino-LqKhnDzSF-8-unsplash.jpg');
+        background-image: url('images/umberto-FewHpO4VC9Y-unsplash.jpg');
         color: rgb(255, 255, 255);
     }
    
-    .div1 {
+    .divi1 {
         padding-left: 15%;
         padding-right: 15%;
         padding-top: 5%;
         padding-bottom:2%;
         background-color: rgb(255, 145, 0);
-        color: rgb(0, 0, 0);
+        color: black;
         position: relative;
     }
-    .div1 .wrapper {
+    .divi1 .wrapper {
         z-index: 1;
     }
-    .div1:after {
+    .divi1:after {
         content: '';
-        position: absolute;
-        background-image: url(images/1261.jpg);
+        position:absolute;
+        background-image: url(images/cloud-download-icon-line-connection-circuit-board.jpg);
         background-position: right;
         background-size: contain;
         height: 100%;
@@ -46,24 +46,24 @@ body, html {
     }
 
 
-    .div2 {
+    .divi2 {
         padding-left: 15%;
         padding-right: 15%;
         padding-top: 2%;
         padding-bottom:2%;
-        background-color: rgb(0, 0, 0);
+        background-color: black;
         color: rgb(189, 185, 185);
         position: relative;
     }
 
-    .div2 .wrapper {
+    .divi2 .wrapper {
         z-index: 1;
     }
-    .div2:after {
+    .divi2:after {
         content: '';
         position: absolute;
-        background-image: url(images/mvp-poc-vox1.png);
-        background-position: left;
+        background-image: url(images/futuristic-smart-city-with-5g-global-network-technology.jpg);
+        background-position: right;
         background-size: contain;
         height: 100%;
         background-repeat: no-repeat;
@@ -71,10 +71,10 @@ body, html {
         bottom: 0;
         left: 0;
         z-index: 0;
-        opacity: .3;
+        opacity: .5;
     }
 
-    .div3 {
+    .divi3 {
         padding-left: 15%;
         padding-right: 15%;
         padding-top: 5%;
@@ -83,10 +83,10 @@ body, html {
         color: rgb(0, 0, 0);
         position: relative;
     }
-    .div3 .wrapper {
+    .divi3 .wrapper {
         z-index: 1;
     }
-    .div3:after {
+    .divi3:after {
         content: '';
         position: absolute;
         background-image: url(images/ai-vox.png);
@@ -99,4 +99,58 @@ body, html {
         right: 0;
         z-index: 0;
         opacity: .2;
+    }
+
+    .divp1 {
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-top: 5%;
+        padding-bottom:2%;
+        background-color:rgb(255, 145, 0);
+        color: black;
+        position: relative;
+        text-align: left;
+    }
+    .divp1 .wrapper {
+        z-index: 1;
+    } 
+    .divp1:after {
+        content: '';
+        position: absolute;
+        background-image: url(images/logo-teleflux_500x500px1.gif);
+        background-position: right;
+        background-size: contain;
+        height: 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        bottom: 0;
+        right: 0;
+        z-index: 0;
+    }
+
+    .divp2 {
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-top: 2%;
+        padding-bottom:5%;
+        background-color:black;
+        color: rgb(189, 185, 185);
+        position: relative;
+    }
+    .divp2 .wrapper {
+        z-index: 0;
+    }
+    .divp2:after {
+        content: '';
+        position: absolute;
+        background-image: url(images/instagram_profile_image.png);
+        background-position: right;
+        background-size: contain;
+        height: 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        bottom: 0;
+        right: 0;
+        z-index: 0;
+        opacity: 1;
     }
