@@ -5,12 +5,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
     <link rel="stylesheet" href="main.css">
     <script src="bootstrap/js/bootstrap.min.js"></script>
 </head>
     <header>
         <!-- NAVBAR -->
-        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(0, 0, 0);">
+        <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html"><img src="images/logo1.png" alt="Logo" style="width: 250px;"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav">
@@ -33,42 +34,38 @@
     <main role="main">
         <div class="container-fluid">
 
-            <div id="section1" class="row" style="padding-top:5%; padding-bottom:5%; padding-left: 15%; padding-right: 15%;background-image: url('images/joshua-sortino-LqKhnDzSF-8-unsplash.jpg'); color: rgb(255, 255, 255);">>
+            <div class="row futurette div">
                 
-                <h1 style="background-color: rgb(104, 60, 3);">Confidential Computing Solutions<br>
+                <h1 style="background-color: rgb(255, 145, 0); color: black;">Confidential Computing Solutions<br>
                     for Cloud, IoT and Telecom
                 </h1>
 
-                <p class="lead" style="background-color: rgb(104, 60, 3);">
+                <p class="lead" style="background-color: rgb(255, 145, 0); color: black;">
                     Ultraviolet Consult is a cloud computing company oriented towards secure and confidential computing
                     technologies in the domain of telecom, cloud and IoT systems.
                 </p>
             </div>
-
-            <div class="row featurette" style="padding-left: 15%; padding-right: 15%; padding-top: 5%;padding-bottom:2% ;">
-                    <h1>Confidential Computing</h1>
+            <div class="row featurette div1">
+                
+                <div class="wrapper">
+                <h1>Confidential Computing</h1>
 
                         <p class="lead">
-                            Confidential Computing is a concept in which encrypted data can be processed in memory.
-                            Besides traditional techniques of keeping data safe "at rest" (database encryption) and "in transit"
-                            (TLS and other transport encryption mechnisms), UV is keeping data safe "in use" as well, leveraging
-                            on a new security model called Confidential Computing.
+                            Confidential Computing is a concept in which encrypted data can be processed in memory. Besides traditional techniques of keeping data safe "at rest" (database encryption) and "in transit" (TLS and other transport encryption mechnisms), UV is keeping data safe "in use" as well, leveraging on a new security model called Confidential Computing.
                         </p>
 
                         <p class="lead">
-                            UV solution uses hardware-based techniques to isolate data,
-                            specific functions, or an entire application from the operating system,
-                            hypervisor or virtual machine manager, and other privileged processes.
-                            
-                            Data is stored in the trusted execution environment (TEE), where it’s impossible to view
-                            the data or operations performed on it from outside, even with a debugger.
+                            UV has a long tradition and expertize in telecom domain. Based on this experience, UV has built secure solutions for 5G, IoT and LPWAN connectivity and analytics.
 
-                            The TEE ensures that only authorized code can access the data. If the code is altered or tampered with,
-                            the TEE denies the operation.
+                            UV IoT cloud platform helps connect and manage various types of sensors and actuators via different connectivity networks: LTE, NB-IoT, LoRaWAN and other. Platform is provided as a whitelabel and "as-a-service" (managed SaaS) for the customers which can than operate it and manage their IoT systems.
+
+                            UV provides all related services, from maintenance and support, to buidling various IoT solutions on top.
                         </p>
+                    </div>
             </div>
+            <div class="row featurette div2">
 
-            <div class="row featurette" style="padding-left: 15%; padding-right: 15%; padding-top: 2%;padding-bottom: 2%; background-color: black;color: white;">
+                <div class="wrapper">
                 <h1>Telecom, IoT and LPWAN</h1>
                     <p class="lead">
                         UV has a long tradition and expertize in telecom domain. Based on this experience,
@@ -76,18 +73,18 @@
                     </p>
 
                     <p class="lead">
-                        UV IoT cloud platform
-                        helps connect and manage various types of sensors and actuators via different connectivity networks:
-                        LTE, NB-IoT, LoRaWAN and other. Platform is provided as a whitelabel and "as-a-service" (managed SaaS) for the customers
-                        which can than operate it and manage their IoT systems.
+                        UV IoT cloud platform helps connect and manage various types of sensors and actuators via different connectivity networks: LTE, NB-IoT, LoRaWAN and other. Platform is provided as a whitelabel and "as-a-service" (managed SaaS) for the customers which can than operate it and manage their IoT systems.
                     </p>
 
                     <p class="lead">
                         UV provides all related services, from maintenance and support, to buidling various IoT solutions on top.
                     </p>
             </div>
+        </div>
+        </div>
+            <div class="row featurette div3">
 
-            <div class="row featurette" style="padding-left: 15%; padding-right: 15%; padding-top: 2%; padding-bottom: 5%; ">
+                <div class="wrapper">
                 <h1>Secure AI/ML</h1>
 
                     <p class="lead">
@@ -105,13 +102,14 @@
                         Privacy-preserving feature is often referred to as a "holly grail of AI", and opens novel use-cases, like Secure Multy-Party Computation
                         where multiple companies and enterprises can securely share data and execute analytics on combined data sets.
                     </p>
+                </div>
             </div>
-
+        </div>        
         </div>
     </main>
     
     <!-- FOOTER -->
-    <footer class="footer contrainer;" style="padding-left: 15%; padding-right: 15%; padding-top: 5% ; padding-bottom: 5%; margin-top: auto; background-color:black; color:gray;">
+    <footer class="footer contrainer;" style="padding-left: 15%; padding-right: 15%; padding-top: 5% ; padding-bottom: 5%; margin-top: auto; background-color:black; color:rgb(189, 185, 185);">
         <div class="row featurette">
             <div class="col">
                 <h4 class="featurette-heading">Contact</h4>

@@ -1,9 +1,102 @@
 body, html {
 
     font-family: Arial, Helvetica, sans-serif;
-}
-
+    }
+    .navbar {background-color: black; color: white;}
 	.navbar .nav-item:hover .nav-link{ color: #fff;  }
 	.navbar a {font-family: Arial, Helvetica, sans-serif;}
     .footer .nav-item:hover .nav-link {color: white;}
-    .footer .nav-link{color:gray;}
+    .footer .nav-link{color:rgb(189, 185, 185);}
+
+
+    .div {
+        padding-top:5%;
+        padding-bottom:5%;
+        padding-left: 15%;
+        padding-right: 15%;
+        background-image: url('images/joshua-sortino-LqKhnDzSF-8-unsplash.jpg');
+        color: rgb(255, 255, 255);
+    }
+   
+    .div1 {
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-top: 5%;
+        padding-bottom:2%;
+        background-color: rgb(255, 145, 0);
+        color: rgb(0, 0, 0);
+        position: relative;
+    }
+    .div1 .wrapper {
+        z-index: 1;
+    }
+    .div1:after {
+        content: '';
+        position: absolute;
+        background-image: url(images/1261.jpg);
+        background-position: right;
+        background-size: contain;
+        height: 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        bottom: 0;
+        right: 0;
+        z-index: 0;
+        opacity: .4;
+    }
+
+
+    .div2 {
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-top: 2%;
+        padding-bottom:2%;
+        background-color: rgb(0, 0, 0);
+        color: rgb(189, 185, 185);
+        position: relative;
+    }
+
+    .div2 .wrapper {
+        z-index: 1;
+    }
+    .div2:after {
+        content: '';
+        position: absolute;
+        background-image: url(images/mvp-poc-vox1.png);
+        background-position: left;
+        background-size: contain;
+        height: 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        z-index: 0;
+        opacity: .3;
+    }
+
+    .div3 {
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-top: 5%;
+        padding-bottom:2%;
+        background-color: rgb(255, 145, 0);
+        color: rgb(0, 0, 0);
+        position: relative;
+    }
+    .div3 .wrapper {
+        z-index: 1;
+    }
+    .div3:after {
+        content: '';
+        position: absolute;
+        background-image: url(images/ai-vox.png);
+        background-position: right;
+        background-size: contain;
+        height: 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        bottom: 0;
+        right: 0;
+        z-index: 0;
+        opacity: .2;
+    }
