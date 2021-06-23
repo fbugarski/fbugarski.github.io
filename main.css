@@ -17,7 +17,6 @@ body, html {
         background-image: url('images/joshua-sortino-LqKhnDzSF-8-unsplash.jpg');
         color: rgb(255, 255, 255);
     }
-   
     .divi1 {
         padding-left: 15%;
         padding-right: 15%;
@@ -27,13 +26,12 @@ body, html {
         color: black;
         position: relative;
     }
-    .divi1 .wrapper {
+    /* .divi1 .wrapper {
         z-index: 1;
     }
     .divi1:after {
         content: '';
         position:absolute;
-        background-image:;  
         background-position: right;
         background-size: contain;
         height: 100%;
@@ -42,10 +40,7 @@ body, html {
         bottom: 0;
         right: 0;
         z-index: 0;
-        opacity: .4;
-    }
-
-
+    } */
     .divi2 {
         padding-left: 15%;
         padding-right: 15%;
@@ -55,8 +50,7 @@ body, html {
         color: rgb(189, 185, 185);
         position: relative;
     }
-
-    .divi2 .wrapper {
+    /* .divi2 .wrapper {
         z-index: 1;
     }
     .divi2:after {
@@ -71,8 +65,7 @@ body, html {
         left: 0;
         z-index: 0;
         opacity: .5;
-    }
-
+    } */
     .divi3 {
         padding-left: 15%;
         padding-right: 15%;
@@ -82,13 +75,12 @@ body, html {
         color: rgb(0, 0, 0);
         position: relative;
     }
-    .divi3 .wrapper {
+    /* .divi3 .wrapper {
         z-index: 1;
     }
     .divi3:after {
         content: '';
         position: absolute;
-        background-image: url(images/ai-vox.png);
         background-position: right;
         background-size: contain;
         height: 100%;
@@ -98,8 +90,7 @@ body, html {
         right: 0;
         z-index: 0;
         opacity: .2;
-    }
-
+    } */
     .divp1 {
         padding-left: 15%;
         padding-right: 15%;
@@ -117,7 +108,7 @@ body, html {
         position: absolute;
         background-image: url(images/logo-teleflux_500x500px1.gif);
         background-position: left;
-        background-size: contain;
+        background-size:contain;
         height: 100%;
         background-repeat: no-repeat;
         width: 100%;
@@ -125,7 +116,6 @@ body, html {
         right: 0;
         z-index: 0;
     }
-
     .divp2 {
         padding-left: 15%;
         padding-right: 15%;
@@ -150,5 +140,4 @@ body, html {
         bottom: 0;
         right: 0;
         z-index: 0;
-        opacity: 1;
     }
