@@ -1,6 +1,7 @@
 body, html {
 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-family: 'Roboto', sans-serif;
     }
     .navbar {background-color: black; color: white;}
 	.navbar .nav-item:hover .nav-link{ color: #fff;  }
@@ -8,7 +9,9 @@ body, html {
     .footer .nav-item:hover .nav-link {color: white;}
     .footer .nav-link{color:rgb(189, 185, 185);}
 
-
+    .icons {
+        text-align: center;
+    }
     .div {
         padding-top:5%;
         padding-bottom:5%;
@@ -16,6 +19,21 @@ body, html {
         padding-right: 15%;
         background-image: url('images/joshua-sortino-LqKhnDzSF-8-unsplash.jpg');
         color: rgb(255, 255, 255);
+    }
+    .divi {
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-bottom:2%;
+        background-color: rgb(255, 255, 255);
+        color: black;
+        position: relative;
+        text-align: justify;
+    }
+    .divii {
+        padding-left: 15%;
+        padding-right: 15%;
+        background-color: rgb(255, 255, 255);
+        color: black;
     }
     .divi1 {
         padding-left: 15%;
