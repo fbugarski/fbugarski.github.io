@@ -7,7 +7,7 @@ body, html {
 	.navbar .nav-item:hover .nav-link{ color: #fff;  }
 	.navbar a {font-family: Arial, Helvetica, sans-serif;}
     .footer .nav-item:hover .nav-link {color: white;}
-    .footer .nav-link{color:rgb(189, 185, 185);}
+    .footer .nav-link{color:rgb(0, 0, 0);}
 
     .icons {
         text-align: center;
@@ -19,6 +19,7 @@ body, html {
         padding-right: 15%;
         background-image: url('images/joshua-sortino-LqKhnDzSF-8-unsplash.jpg');
         color: rgb(255, 255, 255);
+        text-align: justify;
     }
     .divi {
         padding-left: 15%;
@@ -121,11 +122,11 @@ body, html {
     .divp1 .wrapper {
         z-index: 1;
     } 
-    .divp1:after {
+    /* .divp1:after {
         content: '';
         position: absolute;
         background-image: url(images/logo-teleflux_500x500px1.gif);
-        background-position: left;
+        background-position: right  ;
         background-size:contain;
         height: 100%;
         background-repeat: no-repeat;
@@ -133,7 +134,7 @@ body, html {
         bottom: 0;
         right: 0;
         z-index: 0;
-    }
+    } */
     .divp2 {
         padding-left: 15%;
         padding-right: 15%;
@@ -146,7 +147,7 @@ body, html {
     .divp2 .wrapper {
         z-index: 0;
     }
-    .divp2:after {
+    /* .divp2:after {
         content: '';
         position: absolute;
         background-image: url(images/instagram_profile_image.png);
@@ -158,4 +159,32 @@ body, html {
         bottom: 0;
         right: 0;
         z-index: 0;
+    } */
+
+    .footer {
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-top: 5% ;
+        padding-bottom: 5%;
+        margin-top: auto;
+        background-color:rgb(156, 156, 156);
+        color:rgb(0, 0, 0);
+    }
+    .divser {
+        text-align: justify;
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        background-color: rgb(255, 145, 0);
+        color: black;
+    }
+    .divser1 {
+        text-align: justify;
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        background-color: black;
+        color: rgb(189, 185, 185);
     }
