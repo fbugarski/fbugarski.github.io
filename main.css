@@ -1,49 +1,53 @@
-body, html {
-
-    font-family: 'Big Shoulders Stencil Display', cursive;
-    font-family: 'Roboto', sans-serif;
+body, html, main {
+    font-family: 'Kanit', sans-serif;
     }
     .navbar {background-color: black; color: white;}
 	.navbar .nav-item:hover .nav-link{ color: #fff;  }
 	.navbar a {font-family: Arial, Helvetica, sans-serif;}
     .footer .nav-item:hover .nav-link {color: white;}
-    .footer .nav-link{color:rgb(0, 0, 0);}
+    .footer .nav-link{color:rgb(158, 0, 158);}
 
     .icons {
         text-align: center;
     }
     .div {
-        padding-top:5%;
-        padding-bottom:5%;
+        padding-top: 5%;
+        padding-bottom: 5%;
         padding-left: 15%;
         padding-right: 15%;
-        background-image: url('images/joshua-sortino-LqKhnDzSF-8-unsplash.jpg');
+        background-image: url('images/2.jpeg');
         color: rgb(255, 255, 255);
         text-align: justify;
+        background-size:cover;
+        background-repeat: no-repeat;
     }
     .divi {
         padding-left: 15%;
         padding-right: 15%;
-        padding-bottom:2%;
+        padding-top: 5%;
+        padding-bottom: 5%;
         background-color: rgb(255, 255, 255);
         color: black;
-        position: relative;
         text-align: justify;
     }
     .divii {
         padding-left: 15%;
         padding-right: 15%;
+        padding-top: 5%;
+        padding-bottom: 5%;
         background-color: rgb(255, 255, 255);
         color: black;
+        text-align: justify;
     }
     .divi1 {
         padding-left: 15%;
         padding-right: 15%;
         padding-top: 5%;
-        padding-bottom:2%;
-        background-color: rgb(255, 145, 0);
+        padding-bottom: 5%;
+        background-color: rgb(255, 255, 255);
         color: black;
         position: relative;
+        text-align: justify;
     }
     /* .divi1 .wrapper {
         z-index: 1;
@@ -63,11 +67,12 @@ body, html {
     .divi2 {
         padding-left: 15%;
         padding-right: 15%;
-        padding-top: 2%;
-        padding-bottom:2%;
+        padding-top: 5%;
+        padding-bottom: 5%;
         background-color: black;
         color: rgb(189, 185, 185);
         position: relative;
+        text-align: justify;
     }
     /* .divi2 .wrapper {
         z-index: 1;
@@ -89,10 +94,11 @@ body, html {
         padding-left: 15%;
         padding-right: 15%;
         padding-top: 5%;
-        padding-bottom:2%;
-        background-color: rgb(255, 145, 0);
+        padding-bottom: 5%;
+        background-color: rgb(255, 255, 255);
         color: rgb(0, 0, 0);
         position: relative;
+        text-align: justify;
     }
     /* .divi3 .wrapper {
         z-index: 1;
@@ -114,10 +120,11 @@ body, html {
         padding-left: 15%;
         padding-right: 15%;
         padding-top: 5%;
-        padding-bottom:2%;
-        background-color:rgb(255, 145, 0);
-        color: black;
+        padding-bottom: 5%;
+        background-color:rgb(0, 0, 0);
+        color: rgb(189, 185, 185);
         position: relative;
+        text-align: justify;
     }
     .divp1 .wrapper {
         z-index: 1;
@@ -138,11 +145,12 @@ body, html {
     .divp2 {
         padding-left: 15%;
         padding-right: 15%;
-        padding-top: 2%;
-        padding-bottom:5%;
-        background-color:black;
-        color: rgb(189, 185, 185);
+        padding-top: 5%;
+        padding-bottom: 5%;
+        background-color:rgb(255, 255, 255);
+        color: black;
         position: relative;
+        text-align: justify;
     }
     .divp2 .wrapper {
         z-index: 0;
@@ -164,11 +172,12 @@ body, html {
     .footer {
         padding-left: 15%;
         padding-right: 15%;
-        padding-top: 5% ;
+        padding-top: 5%;
         padding-bottom: 5%;
         margin-top: auto;
-        background-color:rgb(156, 156, 156);
-        color:rgb(0, 0, 0);
+        background-color:rgb(0, 0, 0);
+        color:rgb(158, 0, 158);
+        text-align: justify;
     }
     .divser {
         text-align: justify;
@@ -176,8 +185,9 @@ body, html {
         padding-right: 15%;
         padding-top: 5%;
         padding-bottom: 5%;
-        background-color: rgb(255, 145, 0);
+        background-color: rgb(255, 255, 255);
         color: black;
+        text-align: justify;
     }
     .divser1 {
         text-align: justify;
@@ -187,4 +197,14 @@ body, html {
         padding-bottom: 5%;
         background-color: black;
         color: rgb(189, 185, 185);
+        text-align: justify;
     }
+    .feather {
+        width: 100px;
+        height: 100px;
+        stroke: currentColor;
+        stroke-width: 1;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        fill: none;
+      }
