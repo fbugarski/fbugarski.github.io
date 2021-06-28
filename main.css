@@ -5,28 +5,22 @@ body, html, main {
 	.navbar .nav-item:hover .nav-link{ color: #fff;  }
 	.navbar a {font-family: Arial, Helvetica, sans-serif;}
     .footer .nav-item:hover .nav-link {color: white;}
-    .footer .nav-link{color:rgb(158, 0, 158);}
+    .footer .nav-link{color:violet;}
 
     .icons {
         text-align: center;
+        color: violet;
     }
     .div {
         padding-top: 15%;
         padding-bottom: 15%;
         padding-left: 15%;
         padding-right: 15%;
-        background-image: url('images/2.jpeg');
+        background-image: url('images/uv1.jpg');
         color: rgb(255, 255, 255);
         text-align: justify;
         background-size:cover;
         background-repeat: no-repeat;
-    }
-    .divi {
-        padding-left: 15%;
-        padding-right: 15%;
-        background-color: rgb(255, 255, 255);
-        color: black;
-        text-align: justify;
     }
     .divii {
         padding-left: 15%;
@@ -37,83 +31,36 @@ body, html, main {
         color: black;
         text-align: justify;
     }
-    .divi1 {
+    .whiterow {
         padding-left: 15%;
         padding-right: 15%;
         padding-top: 5%;
         padding-bottom: 5%;
-        background-color: rgb(255, 255, 255);
+        background-color: rgb(234, 237, 238);
         color: black;
         position: relative;
         text-align: justify;
     }
-    /* .divi1 .wrapper {
-        z-index: 1;
-    }
-    .divi1:after {
-        content: '';
-        position:absolute;
-        background-position: right;
-        background-size: contain;
-        height: 100%;
-        background-repeat: no-repeat;
-        width: 100%;
-        bottom: 0;
-        right: 0;
-        z-index: 0;
-    } */
-    .divi2 {
+    .blackrow {
         padding-left: 15%;
         padding-right: 15%;
         padding-top: 5%;
         padding-bottom: 5%;
-        background-color: black;
+        background-color: rgb(0, 0, 0);
         color: rgb(189, 185, 185);
         position: relative;
         text-align: justify;
     }
-    /* .divi2 .wrapper {
-        z-index: 1;
-    }
-    .divi2:after {
-        content: '';
-        position: absolute;
-        background-position: right;
-        background-size: contain;
-        height: 100%;
-        background-repeat: no-repeat;
-        width: 100%;
-        bottom: 0;
-        left: 0;
-        z-index: 0;
-        opacity: .5;
-    } */
-    .divi3 {
+    .bluerow {
         padding-left: 15%;
         padding-right: 15%;
         padding-top: 5%;
         padding-bottom: 5%;
-        background-color: rgb(255, 255, 255);
-        color: rgb(0, 0, 0);
+        background-color: rgb(6,19,40);
+        color: rgb(189, 185, 185);
         position: relative;
         text-align: justify;
     }
-    /* .divi3 .wrapper {
-        z-index: 1;
-    }
-    .divi3:after {
-        content: '';
-        position: absolute;
-        background-position: right;
-        background-size: contain;
-        height: 100%;
-        background-repeat: no-repeat;
-        width: 100%;
-        bottom: 0;
-        right: 0;
-        z-index: 0;
-        opacity: .2;
-    } */
     .divp1 {
         padding-left: 15%;
         padding-right: 15%;
@@ -127,19 +74,6 @@ body, html, main {
     .divp1 .wrapper {
         z-index: 1;
     } 
-    /* .divp1:after {
-        content: '';
-        position: absolute;
-        background-image: url(images/logo-teleflux_500x500px1.gif);
-        background-position: right  ;
-        background-size:contain;
-        height: 100%;
-        background-repeat: no-repeat;
-        width: 100%;
-        bottom: 0;
-        right: 0;
-        z-index: 0;
-    } */
     .divp2 {
         padding-left: 15%;
         padding-right: 15%;
@@ -153,20 +87,6 @@ body, html, main {
     .divp2 .wrapper {
         z-index: 0;
     }
-    /* .divp2:after {
-        content: '';
-        position: absolute;
-        background-image: url(images/instagram_profile_image.png);
-        background-position: right;
-        background-size: contain;
-        height: 100%;
-        background-repeat: no-repeat;
-        width: 100%;
-        bottom: 0;
-        right: 0;
-        z-index: 0;
-    } */
-
     .footer {
         padding-left: 15%;
         padding-right: 20%;
@@ -174,8 +94,9 @@ body, html, main {
         padding-bottom: 5%;
         margin-top: auto;
         background-color:rgb(0, 0, 0);
-        color:rgb(158, 0, 158);
+        color:violet;
         text-align: justify;
+        font-size: 20px;
     }
     .divser {
         text-align: justify;
@@ -206,3 +127,17 @@ body, html, main {
         stroke-linejoin: round;
         fill: none;
       }
+      .feather-product {
+        width: 200px;
+        height: 200px;
+        stroke-width: 1;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        fill: none;
+        stroke: violet;
+      }
+    .btn-primary {
+        background-color: violet;
+        color: black;
+        border:violet;
+    }
