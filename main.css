@@ -11,8 +11,8 @@ body, html, main {
         text-align: center;
     }
     .div {
-        padding-top: 5%;
-        padding-bottom: 5%;
+        padding-top: 15%;
+        padding-bottom: 15%;
         padding-left: 15%;
         padding-right: 15%;
         background-image: url('images/2.jpeg');
@@ -24,8 +24,6 @@ body, html, main {
     .divi {
         padding-left: 15%;
         padding-right: 15%;
-        padding-top: 5%;
-        padding-bottom: 5%;
         background-color: rgb(255, 255, 255);
         color: black;
         text-align: justify;
