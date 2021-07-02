@@ -133,31 +133,35 @@ body, html, main, footer {
         fill: none;
         stroke: violet;
       }
+    .btn-primary:hover{
+        background-color:black;
+        color:violet;
+    }
     .btn-primary {
         background-color: violet;
         color: black;
         border:violet;
     }
     @media (min-width: 544px) {  
-        .display-1 {font-size:1.5rem;} /*1rem = 16px*/
+        .display-1 {font-size:1.5rem;}
       
         .display-6 {font-size:1.3rem;}
     }
-      /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+      
       @media (min-width: 768px) {  
-        .display-1 {font-size:2rem;} /*1rem = 16px*/
+        .display-1 {font-size:2rem;}
       
         .display-6 {font-size:1.8rem;}
     }
-      /* Large devices (desktops, 992px and up) */
+      
       @media (min-width: 992px) { 
-        .display-1 {font-size:2.5rem;} /*1rem = 16px*/
+        .display-1 {font-size:2.5rem;}
       
         .display-6 {font-size:2.3rem;}
     }
-      /* Extra large devices (large desktops, 1200px and up) */
+      
       @media (min-width: 1200px) {  
-        .display-1 {font-size:3rem;} /*1rem = 16px*/    
+        .display-1 {font-size:3rem;}
       
       .display-6 {font-size:2.8rem;}
     }
