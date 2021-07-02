@@ -5,7 +5,7 @@ body, html, main {
         background-color:black;
         color:rgb(234, 237, 238);
         font-weight: 600;
-        font-size: 60px;
+        font-size: 60%;
         position: relative;
         text-align: justify;
     }
