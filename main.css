@@ -1,21 +1,18 @@
-body, html, main {
+body, html, main, footer {
     font-family: 'Kanit', sans-serif;
     }
     .display-1 {
         background-color:black;
         color:rgb(234, 237, 238);
-        font-weight: 600;
-        font-size: 60px;
+        font-weight: 900;
         position: relative;
-        text-align: justify;
+        text-align: left;
     }
-    h6 {
+    .display-6 {
         background-color:black;
         color:rgb(234, 237, 238);
-        font-weight:300;
-        font-size: 30px;
         position: relative;
-        text-align: justify;
+        text-align: left;
     }
     .navbar {background-color: black; color: white;}
 	.navbar .nav-item:hover .nav-link{ color: rgb(238, 130, 238)}
@@ -27,7 +24,7 @@ body, html, main {
         padding-right: 15%;
         background-image: url('images/uv1.jpg');
         color: rgb(255, 255, 255);
-        text-align: justify;
+        text-align: left;
         background-size:cover;
         background-repeat: no-repeat;
     }
@@ -39,7 +36,7 @@ body, html, main {
         background-color: rgb(234, 237, 238);
         color: black;
         position: relative;
-        text-align: justify;
+        text-align: left;
     }
     .whiterow .wrapper {
         z-index: 1;}
@@ -68,7 +65,7 @@ body, html, main {
         background-color: rgb(0, 0, 0);
         color: rgb(255, 255, 255);
         position: relative;
-        text-align: justify;
+        text-align: left;
     }
     .blackrow:after {
         content: '';
@@ -95,7 +92,7 @@ body, html, main {
         background-color: rgb(0, 0, 0);
         color: rgb(255, 255, 255);
         position: relative;
-        text-align: justify;
+        text-align: left;
         background-image: url(images/uv10.jpg);
         background-size: cover;
     }
@@ -143,20 +140,24 @@ body, html, main {
     }
     @media (min-width: 544px) {  
         .display-1 {font-size:1.5rem;} /*1rem = 16px*/
-      }
-       
+      
+        .display-6 {font-size:1.3rem;}
+    }
       /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
       @media (min-width: 768px) {  
         .display-1 {font-size:2rem;} /*1rem = 16px*/
-      }
-       
-      /* Large devices (desktops, 992px and up)
+      
+        .display-6 {font-size:1.8rem;}
+    }
+      /* Large devices (desktops, 992px and up) */
       @media (min-width: 992px) { 
-        .display-1 {font-size:2.5rem;} 1rem = 16px
-      }
-       
-      Extra large devices (large desktops, 1200px and up)
+        .display-1 {font-size:2.5rem;} /*1rem = 16px*/
+      
+        .display-6 {font-size:2.3rem;}
+    }
+      /* Extra large devices (large desktops, 1200px and up) */
       @media (min-width: 1200px) {  
-        .display-1 {font-size:3rem;} 1rem = 16px    
-      }
-  */
+        .display-1 {font-size:3rem;} /*1rem = 16px*/    
+      
+      .display-6 {font-size:2.8rem;}
+    }
