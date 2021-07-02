@@ -4,7 +4,7 @@ body, html, main {
     .display-1 {
         background-color:black;
         color:rgb(234, 237, 238);
-        font-weight: 900;
+        font-weight: 600;
         font-size: 60px;
     }
     h6 {
@@ -105,13 +105,12 @@ body, html, main {
         padding-top: 5%;
         padding-bottom: 5%;
         margin-top: auto;
-        /* background-color:rgb(0, 0, 0); */
         background-image: url(images/uv9.jpg);
         background-position-y: 10%;
         background-size: cover;
         color:violet;
         text-align: justify;
-        font-size: 20px;
+        font-size: 25px;
     }
     .footer .nav-item:hover .nav-link {color: white;}
     .footer .nav-link{color:violet;}
