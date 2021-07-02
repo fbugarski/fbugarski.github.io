@@ -1,7 +1,7 @@
 body, html, main {
     font-family: 'Kanit', sans-serif;
     }
-    h1 {
+    .display-1 {
         background-color:black;
         color:rgb(234, 237, 238);
         font-weight: 900;
