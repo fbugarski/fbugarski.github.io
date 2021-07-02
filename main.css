@@ -6,12 +6,16 @@ body, html, main {
         color:rgb(234, 237, 238);
         font-weight: 600;
         font-size: 60px;
+        position: relative;
+        text-align: justify;
     }
     h6 {
         background-color:black;
         color:rgb(234, 237, 238);
         font-weight:300;
         font-size: 30px;
+        position: relative;
+        text-align: justify;
     }
     .navbar {background-color: black; color: white;}
 	.navbar .nav-item:hover .nav-link{ color: rgb(238, 130, 238)}
@@ -137,22 +141,3 @@ body, html, main {
         color: black;
         border:violet;
     }
-    @media (min-width: 544px) {  
-        h1.display-1 {font-size:1.5rem;} /*1rem = 16px*/
-      }
-       
-      /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
-      @media (min-width: 768px) {  
-        h1.display-1 {font-size:2rem;} /*1rem = 16px*/
-      }
-       
-      /* Large devices (desktops, 992px and up) */
-      @media (min-width: 992px) { 
-        h1.display-1 {font-size:2.5rem;} /*1rem = 16px*/
-      }
-       
-      /* Extra large devices (large desktops, 1200px and up) */
-      @media (min-width: 1200px) {  
-        h1.display-1 {font-size:3rem;} /*1rem = 16px*/    
-      }
- 
