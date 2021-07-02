@@ -31,9 +31,9 @@ body, html, main {
     .whiterow:after {
         content: '';
         position:absolute;
-        background-position: right;
-        background-size: contain;
-        background-image: url(images/sacepinkdeo3.png);
+        background-position: center;
+        background-size: cover;
+        background-image: url(images/pozadina2.png);
         height: 100%;
         background-repeat: no-repeat;
         width: 100%;
@@ -41,35 +41,9 @@ body, html, main {
         right: 0;
         top:0;
         z-index: 0;
+        opacity: 15%;
     }
-    .whiterow1 {
-        padding-left: 15%;
-        padding-right: 15%;
-        padding-top: 5%;
-        padding-bottom: 5%;
-        background-color: rgb(234, 237, 238);
-        color: black;
-        position: relative;
-        text-align: justify;
-    }
-    .whiterow1 .wrapper {
-        z-index: 1;}
-
-    .whiterow1:after {
-        content: '';
-        position:absolute;
-        background-position: left;
-        background-size: contain;
-        background-image: url(images/sacepinkdeo2.png);
-        height: 100%;
-        background-repeat: no-repeat;
-        width: 100%;
-        bottom: 0;
-        right: 0;
-        top:0;
-        z-index: 0;
-        
-    }
+    
     .blackrow {
         padding-left: 15%;
         padding-right: 15%;
@@ -92,20 +66,11 @@ body, html, main {
         bottom: 0;
         right: 0;
         z-index: 0;
-        opacity:30%;
+        opacity:25%;
     }
     .blackrow .wrapper {
         z-index: 1;}
-    .bluerow {
-        padding-left: 15%;
-        padding-right: 15%;
-        padding-top: 5%;
-        padding-bottom: 5%;
-        background-color: rgb(6,19,40);
-        color: rgb(189, 185, 185);
-        position: relative;
-        text-align: justify;
-    }
+
     .iconrow {
         padding-left: 15%;
         padding-right: 15%;
