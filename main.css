@@ -111,7 +111,7 @@ body, html, main, footer {
         background-size: cover;
         color:violet;
         text-align: justify;
-        font-size: 20px;
+        font-size: 15px;
     }
     .footer .nav-item:hover .nav-link {color: white;}
     .footer .nav-link{color:violet;}
