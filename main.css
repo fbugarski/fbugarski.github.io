@@ -5,7 +5,7 @@ body, html, main {
         background-color:black;
         color:rgb(234, 237, 238);
         font-weight: 600;
-        font-size: 60%;
+        font-size: 60px;
         position: relative;
         text-align: justify;
     }
@@ -150,13 +150,13 @@ body, html, main {
         .display-1 {font-size:2rem;} /*1rem = 16px*/
       }
        
-      /* Large devices (desktops, 992px and up) */
+      /* Large devices (desktops, 992px and up)
       @media (min-width: 992px) { 
-        .display-1 {font-size:2.5rem;} /*1rem = 16px*/
+        .display-1 {font-size:2.5rem;} 1rem = 16px
       }
        
-      /* Extra large devices (large desktops, 1200px and up) */
+      Extra large devices (large desktops, 1200px and up)
       @media (min-width: 1200px) {  
-        .display-1 {font-size:3rem;} /*1rem = 16px*/    
+        .display-1 {font-size:3rem;} 1rem = 16px    
       }
- 
+  */
