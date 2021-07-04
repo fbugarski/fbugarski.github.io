@@ -1,6 +1,7 @@
-body, html, main, footer, .navbar, nav {
-    font-family: 'Kanit', sans-serif;
+body {
+    font-family: 'Raleway', sans-serif;
     }
+
     .display-1 {
         background-color:black;
         color:rgb(234, 237, 238);
@@ -16,7 +17,6 @@ body, html, main, footer, .navbar, nav {
     }
     .navbar {background-color: black; color: white;}
 	.navbar .nav-item:hover .nav-link{ color: rgb(238, 130, 238)}
-	.navbar a {font-family: Arial, Helvetica, sans-serif;}
     .headerrow {
         padding-top: 15%;
         padding-bottom: 15%;
@@ -41,7 +41,7 @@ body, html, main, footer, .navbar, nav {
     .whiterow .wrapper {
         z-index: 1;}
 
-    .whiterow:after {
+    .whiterow:before {
         content: '';
         position:absolute;
         background-position: center;
@@ -87,7 +87,7 @@ body, html, main, footer, .navbar, nav {
     .iconrow {
         padding-left: 15%;
         padding-right: 15%;
-        padding-top: 3%;
+        padding-top: 5%;
         padding-bottom: 15%;
         background-color: rgb(0, 0, 0);
         color: rgb(255, 255, 255);
@@ -142,7 +142,7 @@ body, html, main, footer, .navbar, nav {
         color: black;
         border:violet;
     }
-    @media (min-width: 544px) {  
+    /* @media (min-width: 544px) {  
         .display-1 {font-size:1.5rem;}
       
         .display-6 {font-size:1.3rem;}
@@ -164,4 +164,4 @@ body, html, main, footer, .navbar, nav {
         .display-1 {font-size:3rem;}
       
       .display-6 {font-size:2.8rem;}
-    }
+    } */
