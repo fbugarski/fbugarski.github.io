@@ -1,4 +1,4 @@
-body, html, main, footer {
+body, html, main, footer, .navbar, nav {
     font-family: 'Kanit', sans-serif;
     }
     .display-1 {
@@ -98,7 +98,7 @@ body, html, main, footer {
     }
     .icons {
         text-align: center;
-        color: rgb(238, 130, 238);
+        color: violet;
     }
     .footer {
         padding-left: 15%;
