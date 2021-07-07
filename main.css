@@ -1,6 +1,9 @@
-body {
-    font-family: 'Kanit', sans-serif;
-    }
+    body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100%;
+        font-family: 'Kanit', sans-serif;
+        }
 
     .display-1 {
         background-color:black;
@@ -15,14 +18,19 @@ body {
         position: relative;
         text-align: left;
     }
-    .navbar {background-color: black; color: white;}
-	.navbar .nav-item:hover .nav-link{ color: rgb(238, 130, 238)}
+    .navbar {
+        background-color: black;
+        color: white;
+    }
+	.navbar .nav-item:hover .nav-link{ 
+        color: rgb(238, 130, 238)
+    }
     .headerrow {
         padding-top: 15%;
         padding-bottom: 15%;
         padding-left: 15%;
         padding-right: 15%;
-        background-image: url('images/uv1.jpg');
+        background-image: url('images/uv1-test.jpg');
         color: rgb(255, 255, 255);
         text-align: left;
         background-size:cover;
@@ -33,30 +41,29 @@ body {
         padding-right: 15%;
         padding-top: 5%;
         padding-bottom: 5%;
-        background-color: rgb(234, 237, 238);
         color: black;
         position: relative;
         text-align: left;
     }
     .whiterow .wrapper {
-        z-index: 1;}
-
-    .whiterow:before {
+        z-index: 0 ;
+    }
+    .whiterow::after {
         content: '';
         position:absolute;
-        background-position: center;
+        background-position: right;
         background-size: cover;
-        background-image: url(images/pozadina2.png);
+        background-image: url(images/pozadina2-test.png);
+        background-color: rgb(234, 237, 238);
         height: 100%;
         background-repeat: no-repeat;
         width: 100%;
         bottom: 0;
         right: 0;
         top:0;
-        z-index: 0;
+        z-index: -1;
         opacity: 10%;
     }
-    
     .blackrow {
         padding-left: 15%;
         padding-right: 15%;
@@ -72,7 +79,7 @@ body {
         position:absolute;
         background-position: center;
         background-size: cover;
-        background-image: url(images/pozadina1.png);
+        background-image: url(images/pozadina1-test.png);
         height: 100%;
         background-repeat: no-repeat;
         width: 100%;
@@ -83,7 +90,6 @@ body {
     }
     .blackrow .wrapper {
         z-index: 1;}
-
     .iconrow {
         padding-left: 15%;
         padding-right: 15%;
@@ -99,6 +105,7 @@ body {
     .icons {
         text-align: center;
         color: violet;
+        padding-top: 15%;
     }
     .footer {
         padding-left: 15%;
@@ -131,7 +138,7 @@ body {
         stroke-linecap: round;
         stroke-linejoin: round;
         fill: none;
-        stroke: violet;
+        stroke: rgb(238, 130, 238);
       }
     .btn-primary:hover{
         background-color:black;
@@ -142,26 +149,5 @@ body {
         color: black;
         border:violet;
     }
-    @media (min-width: 544px 768px) {  
-        .display-1 {font-size:1.5rem;}
-      
-        .display-6 {font-size:1.3rem;}
-    }
-      
-      @media (min-width: 768px 992px) {  
-        .display-1 {font-size:2rem;}
-      
-        .display-6 {font-size:1.8rem;}
-    }
-      
-      @media (min-width: 992px 1200px) { 
-        .display-1 {font-size:2.5rem;}
-      
-        .display-6 {font-size:2.3rem;}
-    }
-      
-      @media (min-width: 1200px 1200px) {  
-        .display-1 {font-size:3rem;}
-      
-      .display-6 {font-size:2.8rem;}
-    }
+    /* .mobilesOnly {visibility:hidden;} */
+
